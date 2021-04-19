@@ -1,4 +1,7 @@
- var WHITE_KEYS = ['z', 'x', 'c', 'v', 'b', 'n', 'm']
+if (screen.availHeight > screen.availWidth) {
+  alert("Please use Landscape!");
+} 
+var WHITE_KEYS = ['z', 'x', 'c', 'v', 'b', 'n', 'm']
  var BLACK_KEYS = ['s', 'd', 'g', 'h', 'j']
  var keys = document.querySelectorAll('.key')
  var whiteKeys = document.querySelectorAll('.key.white')
